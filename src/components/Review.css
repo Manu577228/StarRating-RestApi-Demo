@@ -1,0 +1,66 @@
+.table-content tr{
+    display: flex;
+    width: 100vw;
+    justify-content:space-around;
+}
+
+.content td {
+    display: flex;
+    width: 100vw;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+    justify-content: space-around;
+ }
+
+.usefull {
+      padding-left: 2rem;
+ }
+
+.bgc {
+    background-color: lightgray;
+    height: 1px;
+    width: 100vw;
+}
+
+.bgca {
+    background-color: lightgray;
+    height: 1px;
+    width: 100vw;
+}
+
+.ratings {
+  flex-direction: column;
+   padding-left: 2rem;
+}
+
+.review {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.show-btn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1rem;
+}
+
+.pageNumbers {
+    list-style: none;
+    display: flex;
+}
+
+.pageNumbers li {
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.pageNumbers li.active {
+    background-color: black;
+    color: white;
+}

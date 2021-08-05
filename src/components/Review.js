@@ -3,9 +3,6 @@ import axios from 'axios'
 import './Review.css'
 import StarRating from './StarRating'
 
-
-
-
 function Review(props) {
 
     const [posts, setPosts] = useState([]);
@@ -18,7 +15,7 @@ function Review(props) {
 
     useEffect(async () => {
 
-        console.log(product_id, ViewID, 'hi');
+        console.log(product_id, ViewID, 'Hi');
 
         const response = await axios.get(`http://www.i2ce.in/reviews/${product_id}/${ViewID}`);
 
